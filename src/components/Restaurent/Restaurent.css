@@ -1,0 +1,33 @@
+.HeadingofRestaurent {
+    font-size: xx-large;
+    margin-top: 2vh;
+    /* color: tomato; */
+    /* color: #d70000; */
+    position: absolute;
+    z-index: 6;
+    font-weight: 600;
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* text-decoration: underline; */
+}
+
+.linktoRestaurent {
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .HeadingofRestaurent {
+        font-size: large;
+        width: 100%;
+        backdrop-filter: blur;
+        margin-top: 0px;
+        height: 7vh;
+        backdrop-filter: blur(1px);
+    }
+}

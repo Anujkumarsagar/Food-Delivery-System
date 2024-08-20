@@ -1,0 +1,92 @@
+/* AddFoodItems.css */
+.container-of-AddFoodItem {
+  display: flex;
+}
+
+.add-food-container {
+  /* max-width: 800px; */
+  /* margin: 40px auto; */
+  display: flex;
+
+  width: 100%;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  flex-flow: wrap;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-food-item {
+  flex: 1;
+  margin-right: 20px;
+  height: max-content;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 30%;
+}
+
+.add-food-item form input,
+.add-food-item form textarea,
+.add-food-item form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.add-food-item form input:focus,
+.add-food-item form textarea:focus,
+.add-food-item form button:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.add-food-item form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-food-item form button:hover {
+  background-color: #0056b3;
+}
+
+.add-food-item form input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.add-food-item form input[type="number"]::-webkit-outer-spin-button,
+.add-food-item form input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.add-food-item form input::placeholder,
+.add-food-item form textarea::placeholder {
+  color: #999;
+}
+
+@media screen and (max-width: 600px) {
+  .add-food-item{
+    max-width: 70%;
+    margin: 23px auto;
+  }
+
+  .container-of-AddFoodItem{
+    flex-direction: column;
+  }
+  .add-food-item form input,
+.add-food-item form textarea,
+.add-food-item form button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 2px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+}

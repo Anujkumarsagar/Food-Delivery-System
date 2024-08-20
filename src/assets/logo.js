@@ -1,0 +1,1 @@
+export default"https://png.pngtree.com/png-clipart/20231014/original/pngtree-savor-the-perfect-burger-generative-with-ai-png-image_13298444.png";
